@@ -5,9 +5,8 @@ import cc_dat_utils
 #Part 3
 #Load your custom JSON file
 input_json_file = "data/mingzhic_cc1.json"
-json_file_name = "data/mingzhic_cc1.json"
 
-with open(json_file_name, "r") as reader:
+with open(input_json_file, "r") as reader:
     json_level_pack = json.load(reader)
 
 #Convert JSON data to CCLevelPack
